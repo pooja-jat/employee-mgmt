@@ -15,11 +15,11 @@ const ListItem = ({ employee }) => {
 
   return (
     <li className=" relative my-1 p-2 rounded-md border border-gray-300">
-      <h1 className="text-lg font-semibold">{employee.name}</h1>
-      <p className="text-sm text-gray-600 my-1">
+      <h1 className="text-xl font-semibold ">{employee.name}</h1>
+      <p className="text-sm text-gray-800 my-1">
         Departmeent : {employee.department}
       </p>
-      <p className="text-sm text-gray-600 my-1">
+      <p className="text-sm text-gray-800 my-1">
         Designation : {employee.designation}
       </p>
 

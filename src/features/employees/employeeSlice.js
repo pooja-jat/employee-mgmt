@@ -9,6 +9,7 @@ const employeeSlice = createSlice({
       isEdit: false,
     },
   },
+
   reducers: {
     add: (state, action) => {
       return {
@@ -16,6 +17,7 @@ const employeeSlice = createSlice({
         employees: [action.payload, ...state.employees],
       };
     },
+
     remove: (state, action) => {
       return {
         ...state,
@@ -31,6 +33,7 @@ const employeeSlice = createSlice({
         edit: { employee: action.payload, isEdit: true },
       };
     },
+    
     update: (state, action) => {
       return {
         ...state,

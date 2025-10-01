@@ -55,7 +55,7 @@ const Form = () => {
           value={name}
           placeholder="Employee Name"
           onChange={(e) => setName(e.target.value)}
-          className="border border-gray-300 w-full rounded-sm my-2 p-2"
+          className="border border-gray-300 w-full rounded-sm my-2 p-2 outline-none hover:border-gray-500"
         />
         <select
           value={designation}
@@ -86,7 +86,7 @@ const Form = () => {
           value={salary}
           type="Number"
           onChange={(e) => setSalary(e.target.value)}
-          className="border border-gray-300 w-full rounded-sm my-2 p-2"
+          className="border border-gray-300 w-full rounded-sm my-2 p-2 outline-none hover:border-gray-500"
           placeholder="Enter Salary"
         />
         <button
